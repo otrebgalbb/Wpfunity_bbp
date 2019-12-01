@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace LIEBHERR.DymoDoc.Converters
+namespace BBP.HOME.Boilerpate.Converters
 {
     public class BooleanToVisibilityConverter : IValueConverter
     {

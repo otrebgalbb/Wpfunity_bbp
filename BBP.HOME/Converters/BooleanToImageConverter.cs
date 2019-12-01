@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace LIEBHERR.DymoDoc.Converters
+namespace BBP.HOME.Boilerpate.Converters
 {
     public class BooleanToImageConverter : IValueConverter
     {

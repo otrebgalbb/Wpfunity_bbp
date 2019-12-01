@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIEBHERR.DymoDoc", "LIEBHERR.DymoDoc\LIEBHERR.DymoDoc.csproj", "{CEE35D2A-CBF2-42BF-8781-4B7272A7921A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.HOME.Boilerplate", "BBP.HOME\BBP.HOME.Boilerplate.csproj", "{CEE35D2A-CBF2-42BF-8781-4B7272A7921A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

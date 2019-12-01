@@ -1,13 +1,9 @@
-Dymola Doc 
+DBoilerplate
 
 Description : 
-A tool used to generate documentation for Dymola library.
+A tool used to generate documentation mvvm Prism unity wpf.
 
 
 Generate and launch :
-Run the project from LIEBHERR.Dymodoc
-
-Test
-See test folder for Testfiles
-Latex_test : Latex equation test bed
-TestFiles : md files used to test the application
+launch the sln BBP.HOME.Boilerplate
+Rename the Project with notepad ++ or with a grep

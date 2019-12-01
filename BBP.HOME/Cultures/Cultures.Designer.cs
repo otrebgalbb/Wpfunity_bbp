@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LIEBHERR.DymoDoc.Cultures {
+namespace BBP.HOME.Boilerpate.Cultures {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace LIEBHERR.DymoDoc.Cultures {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LIEBHERR.DymoDoc.Cultures.Cultures", typeof(Cultures).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BBP.HOME.Boilerpate.Cultures.Cultures", typeof(Cultures).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

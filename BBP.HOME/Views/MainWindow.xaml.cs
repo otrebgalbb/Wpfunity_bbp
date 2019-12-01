@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace LIEBHERR.DymoDoc.Views
+namespace BBP.HOME.Boilerpate.Views
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml

@@ -1,6 +1,6 @@
 ﻿
 
-using LIEBHERR.DymoDoc.Properties;
+using BBP.HOME.Boilerpate.Properties;
 
 using Microsoft.Extensions.Logging;
 using Prism.Events;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
-namespace LIEBHERR.DymoDoc.ViewModels
+namespace BBP.HOME.Boilerpate.ViewModels
 {
     class MainWindowViewModel : ViewModelBase
     {

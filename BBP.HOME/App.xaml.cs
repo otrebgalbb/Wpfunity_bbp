@@ -9,7 +9,7 @@ using System.Windows;
 
 
 
-namespace LIEBHERR.DymoDoc
+namespace BBP.HOME.Boilerpate
 {
     /// <summary>
     /// Logique d'interaction pour App.xaml
