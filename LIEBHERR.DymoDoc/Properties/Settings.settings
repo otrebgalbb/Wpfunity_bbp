@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LIEBHERR.DymoDoc.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EditorPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\Notepad++\notepad++.exe</Value>
+    </Setting>
+    <Setting Name="PdfHelpFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assets\Pdf\Dymola.pdf</Value>
+    </Setting>
+    <Setting Name="MardownDymolaResources" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Test_MarkDownDymolaResources</Value>
+    </Setting>
+    <Setting Name="Workspace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M:\DATA\USER\BRUNO\Test_Workspace</Value>
+    </Setting>
+    <Setting Name="LTSLibraryPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Test_LTSLIbrary\Modelica_</Value>
+    </Setting>
+    <Setting Name="TmpPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M:\Test_Tmp</Value>
+    </Setting>
+    <Setting Name="ResizeSpan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="ResizeDiv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">95</Value>
+    </Setting>
+    <Setting Name="ResizeSpanCrop" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
