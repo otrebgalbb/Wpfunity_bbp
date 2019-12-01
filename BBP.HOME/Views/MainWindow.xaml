@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
         xmlns:converter="clr-namespace:BBP.HOME.Boilerpate.Converters"
-        xmlns:culture="clr-namespace:BBP.HOME.Boilerpate.Cultures"     
+        xmlns:culture="clr-namespace:BBP.HOME.Boilerpate.Cultures"
         xmlns:local="clr-namespace:BBP.HOME.Boilerpate.Views"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
         mc:Ignorable="d"
-        Height="768" 
+        Height="768"
         Width="1024"
         ResizeMode="CanResize"
         >
@@ -20,7 +20,11 @@
 
 
     <Grid >
-
+        <StackPanel Orientation="Vertical">
+            <TextBox Text="{Binding Name}"/>
+            <Button Content="Press Me" Command="{Binding ButtonCommand}"/>
+            <ListBox ItemsSource="{Binding Results}"/>
+        </StackPanel>
     </Grid>
-    
+
 </Window>

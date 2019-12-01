@@ -34,11 +34,11 @@ namespace BBP.HOME.Boilerpate
             containerRegistry.RegisterInstance<ILoggerFactory>(new NLog.Extensions.Logging.NLogLoggerFactory());
 
             // managers
-          /*  containerRegistry.RegisterSingleton<IWorkspaceManager, WorkspaceManager>();
-            containerRegistry.RegisterSingleton<IParameterManager, ParameterManager>();
-            containerRegistry.RegisterSingleton<ILoadingHelper, LoadingHelper>();*/
-           
-         
+            /*  containerRegistry.RegisterSingleton<IWorkspaceManager, WorkspaceManager>();
+              containerRegistry.RegisterSingleton<IParameterManager, ParameterManager>();
+              containerRegistry.RegisterSingleton<ILoadingHelper, LoadingHelper>();*/
+
+
         }
 
         /// <summary>
