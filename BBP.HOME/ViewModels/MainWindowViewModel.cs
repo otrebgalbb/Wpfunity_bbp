@@ -23,6 +23,7 @@ namespace BBP.HOME.Boilerpate.ViewModels
         private ILogger<MainWindowViewModel> logger;
         private string name;
         private ObservableCollection<string> results;
+        private bool isListChecked;
         #endregion
 
         #region Dialog Service
@@ -51,7 +52,7 @@ namespace BBP.HOME.Boilerpate.ViewModels
             liste.Add("item 2");
             liste.Add("item 3");
             Results.AddRange(liste);
-
+            IsListChecked = false;
         }
 
         #endregion
@@ -65,6 +66,7 @@ namespace BBP.HOME.Boilerpate.ViewModels
         public void OnPressButton()
         {
             Name = "New text";
+            IsListChecked = true;
         }
 
         //
@@ -72,6 +74,12 @@ namespace BBP.HOME.Boilerpate.ViewModels
         {
             get { return name; }
             set { SetProperty(ref name, value, nameof(Name)); }
+        }
+
+        public bool IsListChecked
+        {
+            get { return isListChecked; }
+            set { SetProperty(ref isListChecked, value, nameof(IsListChecked)); }
         }
 
         //
